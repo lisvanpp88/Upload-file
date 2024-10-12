@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "6e7dd61c-5c9d-4c66-97f0-216a6b2350d6",
+		"name": "lisvan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2906340"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/dmila/Documents/tasks/cristobal/passport/unify-api/biztalk-add-filter.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/uploadfile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"uploadfile"
+					],
+					"query": [
+						{
+							"key": "file",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
