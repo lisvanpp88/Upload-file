@@ -1,2 +1,2 @@
 # Upload-file
-This project is a simple file upload API built using FastAPI. It allows users to upload files through an HTTP POST request, which are then saved on the server in a designated directory called "files".
+This project is a simple file upload API built using FastAPI. It allows users to upload files through an HTTP POST request, which are then saved on the server in a designated directory called "files". Each uploaded file is renamed with a unique timestamp to avoid name collisions. The project demonstrates key features such as handling file uploads, creating directories dynamically, and managing files using Python libraries like os and shutil. It's an efficient and scalable solution for managing file uploads in a web application.
